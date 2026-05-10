@@ -66,7 +66,7 @@ export const radarItems: RadarItem[] = [
     summary: "Inscrição de produtores culturais para captação via Lei Municipal de Incentivo à Cultura do Rio de Janeiro.",
     publishDate: "10 de Maio de 2026",
     deadline: "31/05/2026",
-    externalLink: "https://www.rio.rj.gov.br/web/smc",
+    externalLink: "https://cultura.prefeitura.rio/",
   },
   {
     id: "secec-rj-acoes-continuadas",
@@ -75,7 +75,7 @@ export const radarItems: RadarItem[] = [
     status: "Aberto",
     summary: "Apoio a ações culturais contínuas no Estado do RJ; prevê categorias para circos de lona, grupos/companhias e festivais/eventos.",
     publishDate: "10 de Maio de 2026",
-    externalLink: "https://desenvolvecultura.rj.gov.br",
+    externalLink: "https://cultura.rj.gov.br/acoes-continuadas/",
   },
   {
     id: "funarj-teatro-glaucio-gill",
