@@ -270,17 +270,6 @@ export const projects = [
     fermentoRole: "Projetos em Parceria"
   },
   {
-    id: "documentario-sabedoria-maria",
-    slug: "documentario-sabedoria-de-maria",
-    title: "Documentário Sabedoria de Maria",
-    summary: "Elaboração de projeto em edital focado em povos tradicionais.",
-    areaId: "cultura-territorio",
-    status: "Realizado",
-    year: "2023",
-    territory: "Itaguaí, RJ",
-    fermentoRole: "Projetos em Parceria"
-  },
-  {
     id: "cultura-inclusiva-redes",
     slug: "cultura-inclusiva-nas-redes",
     title: "Cultura Inclusiva nas Redes",
@@ -300,17 +289,6 @@ export const projects = [
     year: "2024",
     territory: "Theatro Municipal de Niterói / RJ",
     fermentoRole: "Projetos Fermento"
-  },
-  {
-    id: "liga-sambare",
-    slug: "liga-sambare",
-    title: "Liga Sambare",
-    summary: "Oficina de percussão: elaboração de projeto e prestação de contas aprovada.",
-    areaId: "gestao-sociocultural",
-    status: "Realizado",
-    year: "2023",
-    territory: "Recreio dos Bandeirantes, RJ",
-    fermentoRole: "Projetos em Parceria"
   },
   {
     id: "festas-juninas",
