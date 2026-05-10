@@ -7,13 +7,14 @@ import { radarItems } from "@/content/radar"
 import type { Metadata } from "next"
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const item = radarItems.find((p) => p.slug === params.slug)
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const item = radarItems.find((p) => p.slug === slug)
 
   if (!item) {
     return {
@@ -35,8 +36,9 @@ export function generateStaticParams() {
     }))
 }
 
-export default function RadarArticlePage({ params }: PageProps) {
-  const item = radarItems.find((p) => p.slug === params.slug)
+export default async function RadarArticlePage({ params }: PageProps) {
+  const { slug } = await params;
+  const item = radarItems.find((p) => p.slug === slug)
 
   if (!item) {
     notFound()
