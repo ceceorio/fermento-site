@@ -3,6 +3,7 @@ export const projects = [
     id: "disritmia",
     slug: "disritmia-fotografia-e-poesia",
     title: "Disritmia, Fotografia e Poesia",
+    coverImage: "/disritmia-cover.jpg",
     summary: "Projeto desenvolvido pela Fermento Cultural. Em breve disponibilizaremos mais informações e o release completo.",
     areaId: "cultura-territorio",
     status: "Em destaque",

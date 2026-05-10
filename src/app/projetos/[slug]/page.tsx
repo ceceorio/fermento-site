@@ -69,6 +69,19 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
               {/* MAIN CONTENT COLUMN */}
               <div className="space-y-16">
                 
+                {/* COVER IMAGE */}
+                {project.coverImage && (
+                  <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-fermento-border bg-fermento-charcoal">
+                    <Image
+                      src={project.coverImage}
+                      alt={`Capa do projeto ${project.title}`}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    />
+                  </div>
+                )}
+
                 {/* VIDEO OR THUMBNAIL */}
                 {project.videoId && (
                   <YouTubeEmbed videoId={project.videoId} title={project.title} />
