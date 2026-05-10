@@ -25,7 +25,8 @@ const projects = [
     id: 'queercode',
     slug: 'queercode',
     title: 'Queer Code Festival',
-    color: 'bg-purple-900'
+    color: 'bg-purple-900',
+    video: '/queer.mp4'
   },
   {
     id: 'arraia',
