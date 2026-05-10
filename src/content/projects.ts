@@ -110,6 +110,7 @@ export const projects = [
     id: "queercode",
     slug: "queercode",
     title: "Queer Code Festival",
+    coverImage: "/queercode-cover.png",
     subtitle: "Arte, cultura LGBTQIA+, tecnologia e liberdade na Ilha da Gigóia.",
     summary: "O Queer Code Festival é um projeto da Fermento Cultural que celebra a cultura LGBTQIA+ em diálogo com arte, tecnologia, empreendedorismo, diversidade e ocupação de territórios.",
     longDescription: `O Queer Code Festival é um projeto da Fermento Cultural que celebra a cultura LGBTQIA+ em diálogo com arte, tecnologia, empreendedorismo, diversidade e ocupação de territórios. Realizado na Ilha da Gigóia, na Barra da Tijuca, o festival reuniu shows, performances, feira criativa, teatro, lançamentos literários, rodas de conversa, oficinas, DJs, ballroom, cortejo de barco e batalhas de dança.\n\nContemplado pelo Edital Fomenta Festival, no âmbito da PNAB RJ, o projeto foi reconhecido como festival inédito na área de Cultura LGBTQIA+, com investimento de R$ 100.000,00 e realização da Fermento Cultural Produções Artísticas Ltda.\n\nEm sua primeira edição, nos dias 20 e 21 de setembro de 2025, o Queer Code ocupou os espaços A Container e AKBAR, transformando a Ilha da Gigóia em um território de liberdade, criação, encontro e visibilidade. A programação articulou cultura queer, pensamento crítico, inovação, direitos civis, inteligência artificial, literatura, música, performance e celebração comunitária.`,
