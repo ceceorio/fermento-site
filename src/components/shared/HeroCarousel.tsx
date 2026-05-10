@@ -11,7 +11,8 @@ const projects = [
     id: 'disritmia',
     slug: 'disritmia-fotografia-e-poesia',
     title: 'Disritmia, Fotografia e Poesia',
-    color: 'bg-zinc-800'
+    color: 'bg-zinc-800',
+    video: '/disritmia_video.mp4'
   },
   {
     id: 'efemera',
