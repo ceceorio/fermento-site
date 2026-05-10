@@ -35,6 +35,9 @@ export function Header() {
           <Link href="/publicacoes" className="text-fermento-gray hover:text-fermento-yellow transition-colors">
             Publicações
           </Link>
+          <Link href="/radar" className="text-fermento-gray hover:text-fermento-yellow transition-colors">
+            Radar Fermento
+          </Link>
           <Link href="/clientes-e-parceiros" className="text-fermento-gray hover:text-fermento-yellow transition-colors">
             Clientes
           </Link>

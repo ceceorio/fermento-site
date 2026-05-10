@@ -36,6 +36,7 @@ export function Footer() {
             <h4 className="font-serif text-lg font-medium text-fermento-white">Inteligência</h4>
             <ul className="space-y-2 text-sm text-fermento-gray">
               <li><Link href="/publicacoes" className="hover:text-fermento-yellow transition-colors">Publicações</Link></li>
+              <li><Link href="/radar" className="hover:text-fermento-yellow transition-colors">Radar Fermento</Link></li>
               <li><Link href="/sistema-fermento" className="hover:text-fermento-yellow transition-colors">Plataforma Fermento</Link></li>
             </ul>
           </div>
