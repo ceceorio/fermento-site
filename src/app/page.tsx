@@ -22,18 +22,23 @@ export default function Home() {
       <main className="flex-1 flex flex-col bg-fermento-black">
         {/* HERO SECTION */}
         <section className="relative flex flex-col justify-center min-h-[90vh] px-4 py-20 md:px-6 overflow-hidden">
-          {/* BACKGROUND IMAGE WITH OVERLAY */}
+          {/* BACKGROUND VIDEO WITH OVERLAY */}
           <div className="absolute inset-0 z-0 bg-fermento-black">
-            <Image
-              src="/hero-banner.png"
-              alt="Coletivo de artistas e equipe Fermento Cultural"
-              fill
-              className="object-cover object-[center_right]"
-              priority
-            />
-            {/* Gradiente para garantir legibilidade à esquerda e unificar a imagem com o fundo */}
-            <div className="absolute inset-0 bg-gradient-to-r from-fermento-black via-fermento-black/60 to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-t from-fermento-black/80 via-transparent to-fermento-black/20" />
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              poster="/hero-banner.png"
+              className="absolute inset-0 w-full h-full object-cover object-[center_right] opacity-80 mix-blend-lighten"
+            >
+              <source src="/video01.mp4" type="video/mp4" />
+            </video>
+            {/* Gradientes para garantir legibilidade à esquerda e criar o aspecto cinematográfico premium */}
+            <div className="absolute inset-0 bg-gradient-to-r from-fermento-black via-fermento-black/70 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-fermento-black/90 via-transparent to-fermento-black/20" />
+            {/* Overlay sutil de escurecimento geral para o texto amarelo saltar */}
+            <div className="absolute inset-0 bg-fermento-black/30" />
           </div>
           <div className="container mx-auto max-w-5xl space-y-10 relative z-10">
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-fermento-white text-balance leading-[1.05]">
