@@ -10,6 +10,7 @@ import { PublicationCard } from "@/components/shared/PublicationCard"
 import Link from "next/link"
 import Image from "next/image"
 import Script from "next/script"
+import { HeroCarousel } from "@/components/shared/HeroCarousel"
 
 export default function Home() {
   // Filter projects by role
@@ -70,6 +71,9 @@ export default function Home() {
             </h2>
           </div>
         </section>
+
+        {/* CARROSSEL DE PROJETOS */}
+        <HeroCarousel />
 
         {/* O QUE FAZEMOS */}
         <section className="px-4 py-32 md:px-6 border-b border-fermento-border bg-fermento-graphite">
