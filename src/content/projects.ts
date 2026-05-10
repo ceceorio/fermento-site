@@ -180,13 +180,19 @@ export const projects = [
       }
     ],
     press: [
-      { portal: "PNAB RJ", title: "Festival contemplado no Edital Fomenta Festival" },
-      { portal: "Bafafá", title: "Cobertura do Queer Code Festival na Ilha da Gigóia" },
-      { portal: "Veja Rio", title: "Roteiro: Queer Code Festival movimenta Barra da Tijuca" },
-      { portal: "Rota Cult", title: "Ilha da Gigóia recebe a primeira edição do Queer Code" },
-      { portal: "Secretaria de Ciência e Tecnologia", title: "Apoio institucional e palestras sobre inovação" },
-      { portal: "Jornal da Barra", title: "Festival leva arte e cultura LGBTQIA+ para a Gigóia" },
-      { portal: "Jornal Extra / Globo", title: "Opções culturais gratuitas no Rio de Janeiro" }
+      { portal: "PNAB RJ", title: "Página oficial do projeto Queer Code", url: "https://pnabrj.com.br/projetos/queer-code.html" },
+      { portal: "Bafafá", title: "Queer Code Festival leva arte, cultura, tecnologia e empreendedorismo à Ilha da Gigóia", url: "https://bafafa.com.br/arte-e-cultura/evento/queer-code-festival-leva-arte-cultura-tecnologia-e-empreendedorismo-a-ilha-da-gigoia" },
+      { portal: "Veja Rio", title: "É grátis! Ilha da Gigoia vai receber festival sobre a cultura queer", url: "https://vejario.abril.com.br/gratis/queercode-festival/" },
+      { portal: "Rota Cult", title: "Queer Code Festival leva arte, cultura e empreendedorismo LGBTQIAPN+ para a Gigóia", url: "https://rotacult.com.br/2025/09/queer-code-festival-leva-arte-cultura-tecnologia-e-empreendedorismo-lgbtqiapnpara-a-ilha-da-gigoia/" },
+      { portal: "SCT Rio", title: "Queer Code: Diversidade, Ciência e Tecnologia", url: "https://cienciaetecnologia.prefeitura.rio/noticias/queer-code-diversidade-ciencia-e-tecnologia/" },
+      { portal: "Jornal da Barra", title: "Chamada de fim de semana com Queer Code Festival", url: "https://www.jornaldabarra.com.br/cultura-e-lazer/8890-final-de-semana-na-barra-da-tijuca-confira-os-eventos-que-acontecem-na-regiao" },
+      { portal: "Jornal Extra (Facebook)", title: "Chamada via Facebook do Jornal Extra", url: "https://www.facebook.com/jornalextra/posts/rj-queercode-festival-une-arte-tecnologia-e-cultura-lgbtqiapn-em-dois-dias-na-il/1199876395498806/" },
+      { portal: "Jornal Extra (X/Twitter)", title: "Chamada via X/Twitter do Jornal Extra", url: "https://x.com/jornalextra/status/1968510289500057691" },
+      { portal: "Instagram", title: "Perfil oficial do Queer Code Festival", url: "https://www.instagram.com/queercodefestival/" },
+      { portal: "Fermento Cultural", title: "Programação completa do Queer Code Festival", url: "https://www.instagram.com/p/DOmVJyeCbL8/" },
+      { portal: "Fermento Cultural", title: "Reel / Chamada do Queer Code Festival", url: "https://www.instagram.com/reel/DOM5FLQiUZK/" },
+      { portal: "Fermento Cultural", title: "Reel sobre parceria Queer Code / Queerioca", url: "https://www.instagram.com/reel/DOv4kUQER47/" },
+      { portal: "Prefeitura do Rio (SMC)", title: "PDF com Queer Code Territórios (Resultado Preliminar)", url: "https://cultura.prefeitura.rio/wp-content/uploads/sites/38/2026/05/RESULTADO-PRELIMINAR-DE-VALIDACAO-ARTE-PUBLICA-E-CULT-URBANA.pdf" }
     ],
     gallery: [
       "/placeholders/queercode-1.jpg",
