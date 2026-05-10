@@ -25,6 +25,23 @@ export default function SobrePage() {
           </div>
         </section>
 
+        {/* VÍDEO INSTITUCIONAL */}
+        <section className="px-4 py-16 md:px-6 md:py-24 border-b border-fermento-border bg-fermento-black">
+          <div className="container mx-auto max-w-5xl">
+            <div className="relative aspect-video rounded-xl overflow-hidden border border-fermento-border shadow-2xl bg-black flex items-center justify-center">
+              <video 
+                src="/institucional.mp4" 
+                controls 
+                playsInline
+                preload="metadata"
+                className="w-full h-full object-contain"
+              >
+                Seu navegador não suporta a tag de vídeo.
+              </video>
+            </div>
+          </div>
+        </section>
+
         {/* METODOLOGIA */}
         <section className="px-4 py-32 md:px-6">
           <div className="container mx-auto max-w-5xl space-y-16">
