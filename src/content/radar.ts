@@ -11,14 +11,19 @@ export type RadarStatus = "Aberto" | "Em andamento" | "Encerrado" | "Informativo
 export interface RadarItem {
   id: string;
   title: string;
+  slug: string; // REQUIRED now: All items are internal pages
   category: RadarCategory;
   status: RadarStatus;
   summary: string;
   publishDate: string;
   deadline?: string;
-  externalLink?: string; // Optional agora
-  slug?: string; // Para artigos internos
-  content?: string[]; // Parágrafos do artigo interno
+  externalLink?: string; // The official site link for the edital/opportunity
+  content?: string[]; // Internal article text (if missing, we just show the summary)
+  
+  // Metadados da Ficha Técnica (Opcionais)
+  targetAudience?: string; // Público-alvo (ex: "Produtores culturais, Artistas")
+  duration?: string; // Duração/Vigência do projeto
+  fundingAmount?: string; // Valor do Fomento / Prêmio
 }
 
 export const radarItems: RadarItem[] = [
@@ -60,6 +65,7 @@ export const radarItems: RadarItem[] = [
   },
   {
     id: "edital-produtor-cultural-rio",
+    slug: "edital-produtor-cultural-lei-iss-2026-rio",
     title: "Edital do Produtor Cultural – Lei do ISS 2026",
     category: "Editais",
     status: "Aberto",
@@ -67,9 +73,12 @@ export const radarItems: RadarItem[] = [
     publishDate: "10 de Maio de 2026",
     deadline: "31/05/2026",
     externalLink: "https://cultura.prefeitura.rio/",
+    targetAudience: "Produtores culturais sediados no Rio de Janeiro",
+    fundingAmount: "Incentivo fiscal (ISS)",
   },
   {
     id: "secec-rj-acoes-continuadas",
+    slug: "apoio-acoes-culturais-continuadas-secec-rj",
     title: "Apoio a Ações Culturais Continuadas – SECEC RJ",
     category: "Editais",
     status: "Aberto",
@@ -79,6 +88,7 @@ export const radarItems: RadarItem[] = [
   },
   {
     id: "funarj-teatro-glaucio-gill",
+    slug: "funarj-teatro-glaucio-gill-chamamento-001-2026",
     title: "FUNARJ – Teatro Gláucio Gill / Chamamento Público 001/2026",
     category: "Chamadas abertas",
     status: "Aberto",
@@ -88,6 +98,7 @@ export const radarItems: RadarItem[] = [
   },
   {
     id: "fiocruz-imersidades",
+    slug: "fiocruz-curso-livre-imersidades-nas-trilhas-do-morro",
     title: "Fiocruz – Curso Livre Imersidades: Nas trilhas do Morro",
     category: "Oportunidades",
     status: "Aberto",
@@ -98,6 +109,7 @@ export const radarItems: RadarItem[] = [
   },
   {
     id: "sesc-rj-pulsar",
+    slug: "sesc-rj-pulsar-convocatorias-culturais",
     title: "Sesc RJ Pulsar / Convocatórias culturais",
     category: "Chamadas abertas",
     status: "Em andamento",
@@ -107,6 +119,7 @@ export const radarItems: RadarItem[] = [
   },
   {
     id: "instituto-cultural-vale",
+    slug: "instituto-cultural-vale-2026",
     title: "Instituto Cultural Vale 2026",
     category: "Editais",
     status: "Aberto",
@@ -117,6 +130,7 @@ export const radarItems: RadarItem[] = [
   },
   {
     id: "premio-palmares-arte",
+    slug: "fundacao-cultural-palmares-v-premio-palmares-de-arte",
     title: "Fundação Cultural Palmares – V Prêmio Palmares de Arte",
     category: "Editais",
     status: "Aberto",
@@ -127,15 +141,18 @@ export const radarItems: RadarItem[] = [
   },
   {
     id: "minc-rouanet-interior",
+    slug: "minc-rouanet-no-interior",
     title: "MinC – Rouanet no Interior",
     category: "Editais",
     status: "Aberto",
     summary: "Seleção de projetos territoriais descentralizados com valores de até R$ 200 mil em várias regiões do Brasil.",
     publishDate: "10 de Maio de 2026",
     externalLink: "https://www.gov.br/cultura/pt-br",
+    fundingAmount: "Até R$ 200.000,00",
   },
   {
     id: "secult-alagoas-cultura-popular",
+    slug: "secult-al-edital-de-premiacao-cultura-popular",
     title: "Secult AL – Edital de Premiação / Cultura Popular",
     category: "Editais",
     status: "Aberto",
