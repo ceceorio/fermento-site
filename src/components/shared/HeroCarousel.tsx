@@ -17,7 +17,8 @@ const projects = [
     id: 'efemera',
     slug: 'a-efemera-beleza-das-flores',
     title: 'A Efêmera Beleza das Flores',
-    color: 'bg-emerald-900'
+    color: 'bg-emerald-900',
+    video: '/efemeravideo.mp4'
   },
   {
     id: 'queercode',
@@ -63,14 +64,30 @@ export function HeroCarousel() {
         {projects.map((project) => (
           <div key={project.id} className="relative min-w-full flex-[0_0_100%]">
             <Link href={`/projetos/${project.slug}`} className="block relative w-full h-[300px] md:h-[450px] lg:h-[550px] overflow-hidden group">
-              {/* Fallback color / placeholder since we don't have images yet */}
-              <div className={`absolute inset-0 ${project.color} flex flex-col items-center justify-center transition-transform duration-700 group-hover:scale-105`}>
-                <div className="absolute inset-0 bg-black/40 z-10 mix-blend-multiply" />
-                <h2 className="relative z-20 text-3xl md:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight text-center px-4 drop-shadow-xl max-w-5xl">
-                  {project.title}
-                </h2>
-                <div className="relative z-20 mt-8 text-fermento-yellow border border-fermento-yellow px-8 py-3 rounded-full text-sm font-medium hover:bg-fermento-yellow hover:text-fermento-black transition-colors shadow-lg">
-                  Conhecer o projeto
+              {/* Background Color or Video */}
+              <div className={`absolute inset-0 ${project.color} overflow-hidden transition-transform duration-700 group-hover:scale-105`}>
+                
+                {project.video && (
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="absolute inset-0 w-full h-full object-cover opacity-80"
+                  >
+                    <source src={project.video} type="video/mp4" />
+                  </video>
+                )}
+
+                <div className="absolute inset-0 bg-black/40 z-10" />
+                
+                <div className="absolute inset-0 z-20 flex flex-col items-center justify-center">
+                  <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight text-center px-4 drop-shadow-xl max-w-5xl">
+                    {project.title}
+                  </h2>
+                  <div className="mt-8 text-fermento-yellow border border-fermento-yellow px-8 py-3 rounded-full text-sm font-medium group-hover:bg-fermento-yellow group-hover:text-fermento-black transition-colors shadow-lg backdrop-blur-sm group-hover:backdrop-blur-none">
+                    Conhecer o projeto
+                  </div>
                 </div>
               </div>
             </Link>
