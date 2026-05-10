@@ -293,6 +293,7 @@ export const projects = [
     id: "mistura-classica-brasileira",
     slug: "mistura-classica-brasileira",
     title: "Mistura Clássica Brasileira",
+    coverImage: "/mistura-classica-cover.png",
     summary: "Apresentação musical de Música de Câmara.",
     areaId: "cultura-territorio",
     status: "Realizado",

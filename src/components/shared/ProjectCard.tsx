@@ -18,12 +18,12 @@ export function ProjectCard({ slug, title, summary, area, status, coverImage }: 
       className="group flex flex-col overflow-hidden rounded-lg bg-fermento-graphite border border-fermento-border transition-all hover:border-fermento-yellow/50 hover:bg-fermento-charcoal min-h-[280px]"
     >
       {coverImage && (
-        <div className="relative w-full h-48 border-b border-fermento-border overflow-hidden">
+        <div className="relative w-full h-48 border-b border-fermento-border overflow-hidden bg-[#0d0d0d] flex items-center justify-center">
           <Image
             src={coverImage}
             alt={`Capa do projeto ${title}`}
             fill
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            className="object-contain transition-transform duration-500 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
