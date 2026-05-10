@@ -16,6 +16,9 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Fermento Cultural | Gestão Sociocultural e Inteligência Cultural",
   description: "A Fermento Cultural desenvolve projetos, metodologias e sistemas de gestão para transformar ideias culturais, sociais e territoriais em estruturas financiáveis, executáveis e capazes de gerar impacto público.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
