@@ -9,6 +9,7 @@ import { ProjectCard } from "@/components/shared/ProjectCard"
 import { PublicationCard } from "@/components/shared/PublicationCard"
 import Link from "next/link"
 import Image from "next/image"
+import Script from "next/script"
 
 export default function Home() {
   // Filter projects by role
@@ -95,8 +96,27 @@ export default function Home() {
           </div>
         </section>
 
+        {/* NOSSA MÍDIA / INSTAGRAM */}
+        <section className="px-4 py-32 md:px-6">
+          <div className="container mx-auto space-y-12">
+            <div className="space-y-4 max-w-2xl text-center mx-auto">
+              <h2 className="font-serif text-4xl md:text-5xl font-medium text-fermento-white">
+                Acompanhe nosso movimento
+              </h2>
+              <p className="text-fermento-gray text-lg">
+                Fique por dentro do dia a dia e dos bastidores da Fermento Cultural.
+              </p>
+            </div>
+            
+            <div className="w-full max-w-6xl mx-auto rounded-xl overflow-hidden">
+              <Script src="https://elfsightcdn.com/platform.js" strategy="lazyOnload" />
+              <div className="elfsight-app-6e7f7bf8-583b-45d2-a0ca-0ef5487b6e4c" data-elfsight-app-lazy></div>
+            </div>
+          </div>
+        </section>
+
         {/* ECOSSISTEMA FERMENTO */}
-        <section id="ecossistema" className="px-4 py-32 md:px-6">
+        <section id="ecossistema" className="px-4 py-32 md:px-6 border-t border-fermento-border bg-fermento-graphite">
           <div className="container mx-auto space-y-24">
             
             <div className="max-w-4xl space-y-6">
