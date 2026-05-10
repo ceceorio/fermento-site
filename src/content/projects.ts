@@ -359,5 +359,33 @@ export const projects = [
       { date: "Execução (3 meses)", description: "Evento presencial de 2 dias em Fortaleza e programa de mentorias online contínuas." },
       { date: "Pós-produção (1 mês)", description: "Monitoramento de métricas, avaliação de impacto e prestação de contas." }
     ]
+  },
+  {
+    id: "arraia-doce-mel-show",
+    slug: "arraia-doce-mel-show",
+    title: "Arraiá Doce Mel Show",
+    subtitle: "Apresentação da Quadrilha Junina Escola de Dança Doce Mel Show",
+    summary: "O Arraiá Doce Mel Show foi realizado em 6 de setembro de 2025, na quadra da Chácara Vilar da Saudade, reunindo cerca de 300 pessoas em uma celebração da cultura popular junina, da tradição nordestina e do protagonismo comunitário no Morro dos Prazeres.",
+    longDescription: "O Arraiá Doce Mel Show celebrou a força da cultura popular junina em uma ação comunitária realizada no dia 6 de setembro de 2025, na quadra da Chácara Vilar da Saudade, reunindo moradores, visitantes, artistas, empreendedores locais e representantes do território em torno da tradição, da convivência e do pertencimento.\n\nA iniciativa teve como protagonista a Quadrilha Junina Escola de Dança Doce Mel Show, grupo criado no Morro dos Prazeres, em Santa Teresa, por Flávio Minervino, e reconhecido por sua atuação na valorização das festas juninas, da cultura popular nordestina e da formação artística de jovens de territórios periféricos.\n\nCom 25 integrantes, a apresentação da quadrilha reafirmou a importância das tradições juninas como expressão de memória, identidade e resistência cultural. O evento também contou com apresentação musical ao vivo, com a cantora de forró Ellen Frazão, fortalecendo o clima de celebração popular e integração comunitária.\n\nMesmo enfrentando uma forte tempestade pouco depois do início da programação, o Arraiá manteve sua realização, com ajustes na dinâmica do evento e participação ativa da comunidade. A chuva provocou atrasos nas atrações artísticas, mas não impediu que o encontro cumprisse seu papel cultural, social e afetivo.\n\nAo todo, o projeto envolveu 57 profissionais e alcançou uma média de 300 pessoas, contribuindo para a geração de trabalho, renda e visibilidade para artistas, técnicos, empreendedores e agentes culturais locais.\n\nComo ação de contrapartida sociocultural, foi realizada, no dia 27 de setembro de 2025, a oficina “Saberes e Práticas das Quadrilhas Juninas no Rio de Janeiro”, na Associação de Moradores do Morro dos Prazeres. A atividade contou com a presença de intérpretes de Libras e teve como destaque o relato de Flávio Minervino sobre a trajetória da Doce Mel Show, os desafios de manter viva a tradição das quadrilhas e a importância da cultura popular em territórios atravessados por desigualdades e violência.\n\nO projeto também incorporou medidas de acessibilidade comunicacional, como intérprete de Libras, linguagem clara nos conteúdos e legendas no registro videográfico, ampliando o acesso de diferentes públicos à memória da ação. A sustentabilidade esteve presente por meio da parceria com a COOPSANTA — Cooperativa de Trabalho e Produção dos Catadores de Santa Teresa, que contribuiu com ações de reaproveitamento de materiais, apoio aos figurinos e gestão responsável de resíduos.\n\nO registro audiovisual do projeto foi disponibilizado publicamente no YouTube, reunindo imagens da apresentação, depoimentos, atrações artísticas, participação do público e registros da contrapartida. Dessa forma, o Arraiá Doce Mel Show não apenas realizou uma celebração junina, mas também produziu memória, fortaleceu vínculos comunitários e reafirmou a cultura popular como espaço de trabalho, inclusão, afeto e resistência.",
+    areaId: "cultura-territorio",
+    status: "Realizado",
+    year: "2025",
+    territory: "Morro dos Prazeres / Santa Teresa — Rio de Janeiro",
+    fermentoRole: "Projetos Fermento",
+    videoId: "T9mARnKMqos",
+    technicalDetails: [
+      { label: "Categoria", value: "Apresentação de Quadrilha Junina" },
+      { label: "Grupo", value: "Quadrilha Junina Escola de Dança Doce Mel Show" },
+      { label: "Integrantes da quadrilha", value: "25" },
+      { label: "Profissionais envolvidos", value: "57" },
+      { label: "Público estimado", value: "300 pessoas" },
+      { label: "Local", value: "Quadra da Chácara Vilar da Saudade" },
+      { label: "Acessibilidade", value: "Intérprete de Libras, linguagem acessível e legendas" },
+      { label: "Sustentabilidade", value: "Parceria com COOPSANTA (reaproveitamento de materiais e gestão de resíduos)" }
+    ],
+    timeline: [
+      { date: "06/09/2025", description: "Realização do Arraiá Doce Mel Show na quadra da Chácara Vilar da Saudade." },
+      { date: "27/09/2025", description: "Oficina “Saberes e Práticas das Quadrilhas Juninas no Rio de Janeiro” na Associação de Moradores do Morro dos Prazeres, com participação de Flávio Minervino." }
+    ]
   }
 ];
