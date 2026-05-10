@@ -210,6 +210,7 @@ export const projects = [
     id: "batalha-das-divas",
     slug: "batalha-das-divas",
     title: "Batalha das Divas",
+    coverImage: "/batalha-das-divas-cover.png",
     summary: "Batalha de dança com temática LGBTQIAPN+ realizada em diversos equipamentos culturais do Rio de Janeiro.",
     areaId: "cultura-territorio",
     status: "Realizado",
