@@ -55,6 +55,7 @@ export const projects = [
     id: "efemera-beleza",
     slug: "a-efemera-beleza-das-flores",
     title: "A Efêmera Beleza das Flores",
+    coverImage: "/efemera-cover.png",
     subtitle: "Um monólogo sobre luto, ancestralidade e renascimento.",
     summary: "A Efêmera Beleza das Flores é um monólogo teatral decolonial que dá corpo e voz a Ayodele, mulher negra e periférica atravessada pelo luto, pela ancestralidade e pela urgência de sobreviver.",
     longDescription: `Com texto original de Cícero Nogueira de Brito, coautoria e atuação de Luellem de Castro, e direção de Larissa Porto e Teddy Zany, o espetáculo constrói uma experiência cênica íntima, ritualística e profundamente brasileira.\n\nA peça nasce do encontro entre memória social, escuta comunitária e dramaturgia contemporânea. Ayodele não é apenas uma personagem: é síntese simbólica de muitas mulheres negras brasileiras que enfrentam o silenciamento, a violência, a perda e, ainda assim, seguem produzindo vida, ironia, espiritualidade e beleza.\n\nContemplado pelo Edital Fluxos Fluminenses, no âmbito da Política Nacional Aldir Blanc, o projeto foi realizado pela Fermento Cultural Produções Artísticas e apresentado na Sala Mário Tavares, anexa ao Theatro Municipal do Rio de Janeiro, com sessões gratuitas nos dias 7 e 14 de dezembro de 2025. Em 2026, integrou também o projeto Solos Femininos, da Acaso Cultural, reafirmando sua potência como solo teatral de pesquisa autoral, feminina, negra e antirracista.`,
