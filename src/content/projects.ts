@@ -117,6 +117,7 @@ export const projects = [
     year: "2025",
     territory: "Ilha da Gigóia, Barra da Tijuca, Rio de Janeiro",
     fermentoRole: "Projetos Fermento",
+    videoId: "TT908feF6zI",
     technicalDetails: [
       { label: "Área", value: "Cultura LGBTQIA+" },
       { label: "Categoria", value: "Festivais inéditos" },
