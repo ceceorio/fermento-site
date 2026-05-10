@@ -32,7 +32,8 @@ const projects = [
     id: 'arraia',
     slug: 'arraia-doce-mel-show',
     title: 'Arraiá Doce Mel Show',
-    color: 'bg-amber-900'
+    color: 'bg-amber-900',
+    video: '/arraiasite.mp4'
   }
 ]
 
