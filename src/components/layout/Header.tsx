@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button"
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-fermento-border bg-fermento-black/80 backdrop-blur">
-      <div className="container mx-auto flex h-24 items-center justify-between px-4 md:px-6">
+      <div className="container mx-auto flex h-24 md:h-28 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <div 
-            className="relative h-16 w-[240px] md:h-20 md:w-[340px] transition-opacity hover:opacity-80 bg-fermento-yellow"
+            className="relative h-20 w-[260px] md:h-24 md:w-[380px] transition-opacity hover:opacity-80 bg-fermento-yellow"
             style={{ 
               WebkitMaskImage: 'url(/logo_fermento_new.png)', 
               WebkitMaskSize: 'contain', 

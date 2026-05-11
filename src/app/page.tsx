@@ -64,7 +64,7 @@ export default function Home() {
         </section>
 
         {/* FRASE MÃE / POSICIONAMENTO */}
-        <section className="bg-fermento-yellow text-fermento-black px-4 py-16 md:py-20 md:px-6">
+        <section className="bg-fermento-yellow text-fermento-black px-4 py-10 md:py-12 md:px-6">
           <div className="container mx-auto max-w-5xl">
             <h2 className="font-serif text-3xl md:text-5xl font-medium tracking-tight leading-relaxed text-balance whitespace-pre-line">
               {siteContent.fraseMae}
