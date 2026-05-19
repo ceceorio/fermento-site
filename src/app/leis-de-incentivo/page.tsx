@@ -42,8 +42,8 @@ export default function LeisIncentivoPage() {
 
         {/* NAVEGAÇÃO / ÂNCORAS */}
         <section className="px-4 py-12 md:px-6 bg-fermento-black border-b border-fermento-border sticky top-20 md:top-24 z-40 backdrop-blur bg-fermento-black/90">
-          <div className="container mx-auto max-w-6xl">
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+          <div className="container mx-auto max-w-4xl">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <Link href="#rouanet" className="flex items-center justify-center p-4 rounded-lg bg-fermento-graphite border border-fermento-border hover:border-fermento-yellow transition-colors text-center font-medium">
                 Lei Rouanet
               </Link>
@@ -52,12 +52,6 @@ export default function LeisIncentivoPage() {
               </Link>
               <Link href="#iss-rio" className="flex items-center justify-center p-4 rounded-lg bg-fermento-graphite border border-fermento-border hover:border-fermento-yellow transition-colors text-center font-medium">
                 ISS Rio
-              </Link>
-              <Link href="#governanca" className="flex items-center justify-center p-4 rounded-lg bg-fermento-graphite border border-fermento-border hover:border-fermento-yellow transition-colors text-center font-medium">
-                Contas Exclusivas
-              </Link>
-              <Link href="#comparativo" className="hidden lg:flex items-center justify-center p-4 rounded-lg bg-fermento-yellow text-fermento-black border border-fermento-yellow hover:bg-fermento-yellow/90 transition-colors text-center font-bold">
-                Tabela Comparativa
               </Link>
             </div>
           </div>
@@ -327,34 +321,6 @@ export default function LeisIncentivoPage() {
               </div>
             </div>
 
-          </div>
-        </section>
-
-        {/* GOVERNANÇA FINANCEIRA */}
-        <section id="governanca" className="px-4 py-24 md:px-6 bg-fermento-black border-t border-fermento-border scroll-mt-32">
-          <div className="container mx-auto max-w-5xl space-y-12">
-            <div className="text-center space-y-6 max-w-3xl mx-auto">
-              <ScrollText className="w-12 h-12 text-fermento-yellow mx-auto" />
-              <h2 className="font-serif text-4xl md:text-5xl font-bold">Recursos incentivados exigem contas e controles exclusivos</h2>
-              <p className="text-xl text-fermento-gray leading-relaxed">
-                Projetos culturais incentivados exigem segregação financeira. Isso significa que os recursos captados ou repassados não devem ser misturados com a conta operacional da instituição. Cada projeto deve ter controle próprio, conta corrente vinculada ou conta corrente exclusiva, conforme as regras de cada mecanismo.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-fermento-graphite p-8 rounded-xl border border-fermento-border hover:border-fermento-yellow/50 transition-colors">
-                <h3 className="font-serif text-2xl font-bold text-fermento-yellow mb-4">Lei Rouanet</h3>
-                <p className="text-fermento-gray text-lg">Conta corrente vinculada ao projeto aprovado.</p>
-              </div>
-              <div className="bg-fermento-graphite p-8 rounded-xl border border-fermento-border hover:border-fermento-white/50 transition-colors">
-                <h3 className="font-serif text-2xl font-bold text-fermento-white mb-4">ICMS RJ</h3>
-                <p className="text-fermento-gray text-lg">Conta corrente vinculada exclusivamente ao projeto cultural.</p>
-              </div>
-              <div className="bg-fermento-graphite p-8 rounded-xl border border-fermento-border hover:border-fermento-yellow/50 transition-colors">
-                <h3 className="font-serif text-2xl font-bold text-fermento-yellow mb-4">ISS Rio</h3>
-                <p className="text-fermento-gray text-lg">Recurso direcionado pelo sistema municipal e repassado conforme as regras do edital e do termo de compromisso.</p>
-              </div>
-            </div>
           </div>
         </section>
 
