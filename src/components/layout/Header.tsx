@@ -32,6 +32,9 @@ export function Header() {
           <Link href="/projetos" className="text-fermento-gray hover:text-fermento-yellow transition-colors">
             Projetos
           </Link>
+          <Link href="/leis-de-incentivo" className="text-fermento-gray hover:text-fermento-yellow transition-colors">
+            Leis de Incentivo
+          </Link>
           <Link href="/publicacoes" className="text-fermento-gray hover:text-fermento-yellow transition-colors">
             Publicações
           </Link>

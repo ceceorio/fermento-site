@@ -28,6 +28,7 @@ export function Footer() {
               <li><Link href="/sobre" className="hover:text-fermento-yellow transition-colors">Sobre a Fermento</Link></li>
               <li><Link href="/areas" className="hover:text-fermento-yellow transition-colors">Áreas de Atuação</Link></li>
               <li><Link href="/projetos" className="hover:text-fermento-yellow transition-colors">Projetos</Link></li>
+              <li><Link href="/leis-de-incentivo" className="hover:text-fermento-yellow transition-colors">Leis de Incentivo</Link></li>
               <li><Link href="/clientes-e-parceiros" className="hover:text-fermento-yellow transition-colors">Clientes e Parceiros</Link></li>
             </ul>
           </div>
