@@ -24,6 +24,7 @@ export const projects = [
     id: "escola-de-musica",
     slug: "escola-de-musica-casa-amarela-providencia",
     title: "Escola de Música Casa Amarela Providência",
+    coverImage: "/escola-musica/cover.jpg",
     subtitle: "Formação musical de 110 jovens no Morro da Providência.",
     summary: "A Escola de Música Casa Amarela Providência é uma iniciativa de inclusão social e desenvolvimento cultural que oferece formação musical gratuita a 110 jovens do Morro da Providência, no Rio de Janeiro, viabilizada pela Lei Rouanet.",
     longDescription: `O projeto Escola de Música Casa Amarela Providência, uma iniciativa de inclusão social e desenvolvimento cultural, tem duração de 12 meses e visa a formação musical de 110 jovens do Morro da Providência, no Rio de Janeiro. O programa oferece aulas de violino, viola, violoncelo e percussão, além de disciplinas como história da música, percepção musical e prática de conjunto.\n\nA formação inclui ainda musicalização infantil, canto coral, prática de orquestra e bateria de escola de samba, aproximando a música de concerto da cultura popular brasileira.\n\nEstão previstos 8 espetáculos, além de 3 masterclasses com profissionais de notório saber e 5 workshops, que, além de beneficiarem diretamente os alunos, atenderão uma estimativa de 2 mil pessoas, incluindo moradores do Morro da Providência e o público das apresentações em espaços culturais na cidade do Rio de Janeiro.\n\nRealizado pela Casa Amarela Providência com gestão da Fermento Cultural, o projeto é viabilizado pela Lei Rouanet, com patrocínio de Copacabana Palace (A Belmond Hotel), Icatu Seguros e Motiva, e parceria da Prefeitura do Rio de Janeiro.`,
@@ -47,6 +48,11 @@ export const projects = [
     timeline: [
       { date: "Abril de 2026", description: "Primeira apresentação pública dos alunos na sede do VLT Carioca." },
       { date: "Junho de 2026", description: "Apresentação na Vila Olímpica." }
+    ],
+    gallery: [
+      "/escola-musica/grupo.jpg",
+      "/escola-musica/coral.jpg",
+      "/escola-musica/quem-faz.jpg"
     ]
   },
   {
