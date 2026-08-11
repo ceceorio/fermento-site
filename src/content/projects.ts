@@ -90,7 +90,6 @@ export const projects = [
       { date: "19/03/2026", description: "Apresentação no Projeto Solos Femininos, na Acaso Cultural, Botafogo, às 20h." }
     ],
     press: [
-      { portal: "Diário do Rio", title: "Nota de estreia no Theatro Municipal", url: "https://diariodorio.com/alvaro-tallarico-critica-mae-fora-da-caixa-dicas/" },
       { portal: "Bafafá", title: "Matéria/agenda sobre o último dia do monólogo com Luellem de Castro", url: "https://bafafa.com.br/arte-e-cultura/teatro/a-efemera-beleza-das-flores-ultimo-dia-do-monologo-com-luellem-de-castro" },
       { portal: "Sopa Cultural", title: "Chamada sobre a última semana do espetáculo no Theatro Municipal", url: "https://sopacultural.com/ultima-semana-para-conferir-monologo-protagonizado-por-luellem-de-castro-a-efemera-beleza-das-flores-no-theatro-municipal/" },
       { portal: "NTDBR", title: "Chamada sobre a última semana para assistir ao monólogo no Theatro Municipal", url: "https://www.ntdbr.com.br/editorias/especial/itemlist/category/1-noticias?start=1476" },
@@ -99,12 +98,6 @@ export const projects = [
       { portal: "Acaso Cultural", title: "Ingressos Projeto Solos Femininos (Sympla)", url: "https://bileto.sympla.com.br/event/116233" },
       { portal: "Instagram", title: "Perfil oficial da peça @aefemerabelezadasflores", url: "https://www.instagram.com/aefemerabelezadasflores/" },
       { portal: "Diário Oficial", title: "Diário Oficial do Estado do Rio de Janeiro de 24/03/2025: projeto deferido para contratação" }
-    ],
-    gallery: [
-      "/placeholders/efemera-1.jpg",
-      "/placeholders/efemera-2.jpg",
-      "/placeholders/efemera-3.jpg",
-      "/placeholders/efemera-4.jpg"
     ]
   },
   {
@@ -196,14 +189,6 @@ export const projects = [
       { portal: "Fermento Cultural", title: "Reel / Chamada do Queer Code Festival", url: "https://www.instagram.com/reel/DOM5FLQiUZK/" },
       { portal: "Fermento Cultural", title: "Reel sobre parceria Queer Code / Queerioca", url: "https://www.instagram.com/reel/DOv4kUQER47/" },
       { portal: "Prefeitura do Rio (SMC)", title: "PDF com Queer Code Territórios (Resultado Preliminar)", url: "https://cultura.prefeitura.rio/wp-content/uploads/sites/38/2026/05/RESULTADO-PRELIMINAR-DE-VALIDACAO-ARTE-PUBLICA-E-CULT-URBANA.pdf" }
-    ],
-    gallery: [
-      "/placeholders/queercode-1.jpg",
-      "/placeholders/queercode-2.jpg",
-      "/placeholders/queercode-3.jpg",
-      "/placeholders/queercode-4.jpg",
-      "/placeholders/queercode-5.jpg",
-      "/placeholders/queercode-6.jpg"
     ]
   },
   {
