@@ -201,11 +201,14 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                     </h2>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                       {project.gallery.map((img: string, idx: number) => (
-                        <div key={idx} className="relative aspect-square rounded-lg bg-fermento-graphite border border-fermento-border overflow-hidden flex items-center justify-center">
-                          {/* Placeholder icon until real images arrive */}
-                          <div className="text-fermento-gray/50 text-xs text-center p-2">
-                            Imagem {idx + 1}<br/>(Espaço reservado)
-                          </div>
+                        <div key={idx} className="relative aspect-square rounded-lg bg-fermento-graphite border border-fermento-border overflow-hidden">
+                          <Image
+                            src={img}
+                            alt={`${project.title} — imagem ${idx + 1}`}
+                            fill
+                            className="object-cover transition-transform duration-500 hover:scale-105"
+                            sizes="(max-width: 640px) 50vw, 33vw"
+                          />
                         </div>
                       ))}
                     </div>
