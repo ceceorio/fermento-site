@@ -94,7 +94,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                   </h2>
                   <div className="space-y-4 text-lg text-fermento-gray leading-relaxed">
                     {project.longDescription ? (
-                      project.longDescription.split('\\n\\n').map((paragraph: string, i: number) => (
+                      project.longDescription.split(/\\n\\n|\n\n/).map((paragraph: string, i: number) => (
                         <p key={i}>{paragraph}</p>
                       ))
                     ) : (
