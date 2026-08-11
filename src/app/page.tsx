@@ -34,7 +34,7 @@ export default function Home() {
               poster="/hero-banner.png"
               className="absolute inset-0 w-full h-full object-cover object-[center_right] opacity-80 mix-blend-lighten"
             >
-              <source src="/video01.mp4" type="video/mp4" />
+              <source src="/institucional.mp4" type="video/mp4" />
             </video>
             {/* Gradientes para garantir legibilidade à esquerda e criar o aspecto cinematográfico premium */}
             <div className="absolute inset-0 bg-gradient-to-r from-fermento-black via-fermento-black/70 to-transparent" />
