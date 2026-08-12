@@ -44,9 +44,28 @@ export function Header() {
           <Link href="/radar" className="text-fermento-gray hover:text-fermento-yellow transition-colors">
             Radar Fermento
           </Link>
-          <Link href="/clientes-e-parceiros" className="text-fermento-gray hover:text-fermento-yellow transition-colors">
-            Clientes
-          </Link>
+          <div className="relative group">
+            <Link href="/clientes-e-parceiros" className="text-fermento-gray group-hover:text-fermento-yellow transition-colors">
+              Clientes
+            </Link>
+            <div className="absolute right-0 top-full pt-3 hidden group-hover:block z-50">
+              <div className="bg-fermento-charcoal border border-fermento-border rounded-lg py-2 min-w-[280px] shadow-2xl">
+                <Link href="/projetos/casa-amarela-providencia" className="block px-5 py-2.5 text-fermento-gray hover:text-fermento-yellow hover:bg-fermento-black/40 transition-colors">
+                  Casa Amarela Providência
+                </Link>
+                <Link href="/projetos/can-art-change-the-world-brasil" className="block px-5 py-2.5 text-fermento-gray hover:text-fermento-yellow hover:bg-fermento-black/40 transition-colors">
+                  Can Art Change the World – Brasil
+                </Link>
+                <Link href="/projetos/instituto-terra-nova" className="block px-5 py-2.5 text-fermento-gray hover:text-fermento-yellow hover:bg-fermento-black/40 transition-colors">
+                  Instituto Terra Nova
+                </Link>
+                <div className="my-2 h-px bg-fermento-border" />
+                <Link href="/clientes-e-parceiros" className="block px-5 py-2.5 text-sm text-fermento-yellow hover:bg-fermento-black/40 transition-colors">
+                  Todos os clientes e parceiros
+                </Link>
+              </div>
+            </div>
+          </div>
         </nav>
 
         <div className="flex items-center gap-4">
