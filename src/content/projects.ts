@@ -28,7 +28,7 @@ export const projects = [
     coverImage: "/escola-musica/banner.jpg",
     subtitle: "Formação musical de 110 jovens no Morro da Providência.",
     summary: "A Escola de Música Casa Amarela Providência é uma iniciativa de inclusão social e desenvolvimento cultural que oferece formação musical gratuita a 110 jovens do Morro da Providência, no Rio de Janeiro, viabilizada pela Lei Rouanet.",
-    longDescription: `O projeto Escola de Música Casa Amarela Providência, uma iniciativa de inclusão social e desenvolvimento cultural, tem duração de 12 meses e visa a formação musical de 110 jovens do Morro da Providência, no Rio de Janeiro. O programa oferece aulas de violino, viola, violoncelo e percussão, além de disciplinas como história da música, percepção musical e prática de conjunto.\n\nA formação inclui ainda musicalização infantil, canto coral, prática de orquestra e bateria de escola de samba, aproximando a música de concerto da cultura popular brasileira.\n\nEstão previstos 8 espetáculos, além de 3 masterclasses com profissionais de notório saber e 5 workshops, que, além de beneficiarem diretamente os alunos, atenderão uma estimativa de 2 mil pessoas, incluindo moradores do Morro da Providência e o público das apresentações em espaços culturais na cidade do Rio de Janeiro.\n\nRealizado pela Casa Amarela Providência com gestão da Fermento Cultural, o projeto é viabilizado pela Lei Rouanet, com patrocínio da Prefeitura do Rio de Janeiro (Cultura), Motiva, Copacabana Palace (A Belmond Hotel) e Icatu Seguros, e parceria da Orquestra Luna.`,
+    longDescription: `O projeto Escola de Música Casa Amarela Providência, uma iniciativa de inclusão social e desenvolvimento cultural, tem duração de 12 meses e visa a formação musical de 110 jovens do Morro da Providência, no Rio de Janeiro. O programa oferece aulas de violino, viola, violoncelo e percussão, além de disciplinas como história da música, percepção musical e prática de conjunto.\n\nA formação inclui ainda musicalização infantil, canto coral, prática de orquestra e bateria de escola de samba, aproximando a música de concerto da cultura popular brasileira.\n\nEstão previstos 8 espetáculos, além de 3 masterclasses com profissionais de notório saber e 5 workshops, que, além de beneficiarem diretamente os alunos, atenderão uma estimativa de 2 mil pessoas, incluindo moradores do Morro da Providência e o público das apresentações em espaços culturais na cidade do Rio de Janeiro.\n\nRealizado pela Casa Amarela Providência com gestão da Fermento Cultural, o projeto é viabilizado pela Lei Rouanet, com patrocínio do Instituto Motiva, Copacabana Palace (A Belmond Hotel), Icatu Seguros e Prefeitura do Rio de Janeiro (Cultura), e parceria da Orquestra Luna.`,
     areaId: "educacao-juventudes",
     status: "Em andamento",
     year: "2026",
@@ -42,7 +42,7 @@ export const projects = [
       { label: "Alunos atendidos", value: "110 jovens" },
       { label: "Atividades previstas", value: "8 espetáculos, 3 masterclasses e 5 workshops" },
       { label: "Público estimado", value: "2 mil pessoas" },
-      { label: "Patrocínio", value: "Prefeitura do Rio de Janeiro (Cultura), Motiva, Copacabana Palace (A Belmond Hotel) e Icatu Seguros" },
+      { label: "Patrocínio", value: "Instituto Motiva, Copacabana Palace (A Belmond Hotel), Icatu Seguros e Prefeitura do Rio de Janeiro (Cultura)" },
       { label: "Parceria", value: "Orquestra Luna" },
       { label: "Gestão", value: "Fermento Cultural" },
       { label: "Realização", value: "Casa Amarela Providência / Ministério da Cultura" }
@@ -60,8 +60,11 @@ export const projects = [
       "/escola-musica/coral.jpg"
     ],
     team: [
-      { name: "Gláucia Maciel", role: "Coordenação Educativa · Violino e regência", image: "/escola-musica/equipe/glaucia.jpg" },
+      { name: "Gláucia Maciel", role: "Coordenadora Educativa · Violino e regência", image: "/escola-musica/equipe/glaucia.jpg" },
+      { name: "Juliane Souza", role: "Coordenadora Educativa · Violino e regência", image: "/escola-musica/equipe/juliane.jpg" },
       { name: "Camila Pereira", role: "Viola", image: "/escola-musica/equipe/camila.jpg" },
+      { name: "Lúrian Moura", role: "Violoncelo e percepção musical", image: "/escola-musica/equipe/lurian.jpg" },
+      { name: "Victor Hugo Rego", role: "Musicalização", image: "/escola-musica/equipe/victor.jpg" },
       { name: "Gil Vilela", role: "Canto coral", image: "/escola-musica/equipe/gil.jpg" },
       { name: "Mestre Jorginho", role: "Percussão", image: "/escola-musica/equipe/jorginho.jpg" }
     ]
