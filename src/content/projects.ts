@@ -51,8 +51,13 @@ export const projects = [
     ],
     gallery: [
       "/escola-musica/grupo.jpg",
-      "/escola-musica/coral.jpg",
-      "/escola-musica/quem-faz.jpg"
+      "/escola-musica/coral.jpg"
+    ],
+    team: [
+      { name: "Gláucia Maciel", role: "Coordenação Educativa · Violino e regência", image: "/escola-musica/equipe/glaucia.jpg" },
+      { name: "Camila Pereira", role: "Viola", image: "/escola-musica/equipe/camila.jpg" },
+      { name: "Gil Vilela", role: "Canto coral", image: "/escola-musica/equipe/gil.jpg" },
+      { name: "Mestre Jorginho", role: "Percussão", image: "/escola-musica/equipe/jorginho.jpg" }
     ]
   },
   {
