@@ -4,8 +4,8 @@ import { projects } from "@/content/projects"
 import { areas } from "@/content/areas"
 import { notFound } from "next/navigation"
 import { YouTubeEmbed } from "@/components/shared/YouTubeEmbed"
-import { ProjectCard } from "@/components/shared/ProjectCard"
 import Image from "next/image"
+import Link from "next/link"
 import { ExternalLink } from "lucide-react"
 
 export function generateStaticParams() {
@@ -199,15 +199,15 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                     <h2 className="font-serif text-2xl font-medium text-fermento-white border-b border-fermento-border pb-4">
                       Galeria
                     </h2>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    <div className="grid gap-6 sm:grid-cols-2">
                       {project.gallery.map((img: string, idx: number) => (
-                        <div key={idx} className="relative aspect-square rounded-lg bg-fermento-graphite border border-fermento-border overflow-hidden">
+                        <div key={idx} className="relative aspect-[4/3] rounded-xl bg-fermento-graphite border border-fermento-border overflow-hidden">
                           <Image
                             src={img}
                             alt={`${project.title} — imagem ${idx + 1}`}
                             fill
                             className="object-cover transition-transform duration-500 hover:scale-105"
-                            sizes="(max-width: 640px) 50vw, 33vw"
+                            sizes="(max-width: 640px) 100vw, 50vw"
                           />
                         </div>
                       ))}
@@ -254,13 +254,42 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                         Projetos, programas e ações desenvolvidos pela instituição.
                       </p>
                     </div>
-                    <div className="grid gap-6 sm:grid-cols-2">
-                      {institutionProjects.map((childProject) => (
-                        <ProjectCard 
-                          key={childProject.id} 
-                          {...childProject}
-                          area={areas.find(a => a.id === childProject.areaId)?.title || "Projeto"}
-                        />
+                    <div className="space-y-8">
+                      {institutionProjects.map((childProject: any) => (
+                        <Link
+                          key={childProject.id}
+                          href={`/projetos/${childProject.slug}`}
+                          className="block group border border-fermento-border rounded-xl overflow-hidden bg-fermento-charcoal hover:border-fermento-yellow transition-colors"
+                        >
+                          {childProject.coverImage && (
+                            <div className="relative w-full aspect-video overflow-hidden">
+                              <Image
+                                src={childProject.coverImage}
+                                alt={`Capa do projeto ${childProject.title}`}
+                                fill
+                                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                sizes="(max-width: 1024px) 100vw, 66vw"
+                              />
+                            </div>
+                          )}
+                          <div className="p-6 md:p-8 space-y-3">
+                            <div className="flex flex-wrap items-center gap-3">
+                              {childProject.status && (
+                                <span className="text-xs font-medium uppercase tracking-widest text-fermento-yellow">{childProject.status}</span>
+                              )}
+                              <span className="text-xs text-fermento-gray uppercase tracking-widest">
+                                {areas.find(a => a.id === childProject.areaId)?.title || "Projeto"}
+                              </span>
+                            </div>
+                            <h3 className="font-serif text-2xl md:text-3xl font-bold text-fermento-white group-hover:text-fermento-yellow transition-colors">
+                              {childProject.title}
+                            </h3>
+                            <p className="text-fermento-gray leading-relaxed">
+                              {childProject.summary}
+                            </p>
+                            <p className="text-sm font-medium text-fermento-yellow pt-2">Ver projeto →</p>
+                          </div>
+                        </Link>
                       ))}
                     </div>
                   </div>
