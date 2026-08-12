@@ -15,6 +15,7 @@ export const projects = [
     slug: "casa-amarela-providencia",
     title: "Casa Amarela Providência",
     summary: "A Casa Amarela Providência é uma instituição de atuação cultural, educativa e territorial no Morro da Providência. A Fermento Cultural atua em sua gestão estratégica e institucional, contribuindo para o fortalecimento de seus projetos, sua sustentabilidade, sua captação de recursos, sua produção cultural e sua atuação sociocultural no território.",
+    longDescription: `A Casa Amarela Providência é um centro cultural, educativo e comunitário no coração do Morro da Providência, a primeira favela do Rio de Janeiro. Nasceu em 2009, a partir do projeto "Women Are Heroes" do artista francês JR, em parceria com o fotógrafo Maurício Hora, e se tornou referência de arte e educação no território — reconhecível pela fachada amarela e pela escultura de lua sobre o telhado.\n\nHoje, a gestão estratégica e institucional da Casa Amarela é realizada pela Fermento Cultural, que atua no fortalecimento de seus projetos, na captação de recursos, na produção cultural e na sustentabilidade da instituição.\n\nA Casa atende crianças, jovens e mulheres do território em grupos por faixa etária: os Kekerês e os Erês (3 a 13 anos), com alfabetização, música, movimento, inglês, informática, hip-hop, boxe e cultura afro-brasileira; o grupo Somodé (14 a 18 anos), com educação em saúde, programação, escrita criativa e empreendedorismo; e o MiP — Mulheres na Providência (18 a 65 anos), programa de formação profissional em culinária, costura, moda e beleza que já formou mais de 70 mulheres.\n\nA programação inclui ainda dança afro, sessões de cinema, refeições comunitárias, atividades de bem-estar e uma residência artística que conecta o Morro da Providência a artistas do Brasil e do mundo. É desse ecossistema que nasce a Escola de Música Casa Amarela Providência, viabilizada pela Lei Rouanet.`,
     areaId: "cultura-territorio",
     status: "Gestão Ativa",
     fermentoRole: "Instituições sob Gestão",
@@ -24,10 +25,10 @@ export const projects = [
     id: "escola-de-musica",
     slug: "escola-de-musica-casa-amarela-providencia",
     title: "Escola de Música Casa Amarela Providência",
-    coverImage: "/escola-musica/cover.jpg",
+    coverImage: "/escola-musica/banner.jpg",
     subtitle: "Formação musical de 110 jovens no Morro da Providência.",
     summary: "A Escola de Música Casa Amarela Providência é uma iniciativa de inclusão social e desenvolvimento cultural que oferece formação musical gratuita a 110 jovens do Morro da Providência, no Rio de Janeiro, viabilizada pela Lei Rouanet.",
-    longDescription: `O projeto Escola de Música Casa Amarela Providência, uma iniciativa de inclusão social e desenvolvimento cultural, tem duração de 12 meses e visa a formação musical de 110 jovens do Morro da Providência, no Rio de Janeiro. O programa oferece aulas de violino, viola, violoncelo e percussão, além de disciplinas como história da música, percepção musical e prática de conjunto.\n\nA formação inclui ainda musicalização infantil, canto coral, prática de orquestra e bateria de escola de samba, aproximando a música de concerto da cultura popular brasileira.\n\nEstão previstos 8 espetáculos, além de 3 masterclasses com profissionais de notório saber e 5 workshops, que, além de beneficiarem diretamente os alunos, atenderão uma estimativa de 2 mil pessoas, incluindo moradores do Morro da Providência e o público das apresentações em espaços culturais na cidade do Rio de Janeiro.\n\nRealizado pela Casa Amarela Providência com gestão da Fermento Cultural, o projeto é viabilizado pela Lei Rouanet, com patrocínio de Copacabana Palace (A Belmond Hotel), Icatu Seguros e Motiva, e parceria da Prefeitura do Rio de Janeiro.`,
+    longDescription: `O projeto Escola de Música Casa Amarela Providência, uma iniciativa de inclusão social e desenvolvimento cultural, tem duração de 12 meses e visa a formação musical de 110 jovens do Morro da Providência, no Rio de Janeiro. O programa oferece aulas de violino, viola, violoncelo e percussão, além de disciplinas como história da música, percepção musical e prática de conjunto.\n\nA formação inclui ainda musicalização infantil, canto coral, prática de orquestra e bateria de escola de samba, aproximando a música de concerto da cultura popular brasileira.\n\nEstão previstos 8 espetáculos, além de 3 masterclasses com profissionais de notório saber e 5 workshops, que, além de beneficiarem diretamente os alunos, atenderão uma estimativa de 2 mil pessoas, incluindo moradores do Morro da Providência e o público das apresentações em espaços culturais na cidade do Rio de Janeiro.\n\nRealizado pela Casa Amarela Providência com gestão da Fermento Cultural, o projeto é viabilizado pela Lei Rouanet, com patrocínio da Prefeitura do Rio de Janeiro (Cultura), Motiva, Copacabana Palace (A Belmond Hotel) e Icatu Seguros, e parceria da Orquestra Luna.`,
     areaId: "educacao-juventudes",
     status: "Em andamento",
     year: "2026",
@@ -41,15 +42,20 @@ export const projects = [
       { label: "Alunos atendidos", value: "110 jovens" },
       { label: "Atividades previstas", value: "8 espetáculos, 3 masterclasses e 5 workshops" },
       { label: "Público estimado", value: "2 mil pessoas" },
-      { label: "Patrocínio", value: "Copacabana Palace (A Belmond Hotel), Icatu Seguros e Motiva" },
-      { label: "Parceria", value: "Prefeitura do Rio de Janeiro" },
-      { label: "Realização", value: "Casa Amarela Providência / Fermento Cultural / Ministério da Cultura" }
+      { label: "Patrocínio", value: "Prefeitura do Rio de Janeiro (Cultura), Motiva, Copacabana Palace (A Belmond Hotel) e Icatu Seguros" },
+      { label: "Parceria", value: "Orquestra Luna" },
+      { label: "Gestão", value: "Fermento Cultural" },
+      { label: "Realização", value: "Casa Amarela Providência / Ministério da Cultura" }
     ],
     timeline: [
       { date: "Abril de 2026", description: "Primeira apresentação pública dos alunos na sede do VLT Carioca." },
       { date: "Junho de 2026", description: "Apresentação na Vila Olímpica." }
     ],
     gallery: [
+      "/escola-musica/menina-violino.jpg",
+      "/escola-musica/orquestra.jpg",
+      "/escola-musica/coral-teclado.jpg",
+      "/escola-musica/violinos.jpg",
       "/escola-musica/grupo.jpg",
       "/escola-musica/coral.jpg"
     ],
