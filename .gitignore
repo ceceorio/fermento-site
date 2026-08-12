@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# acervo bruto de comunicacao (fotos/videos gigantes - NAO versionar)
+public/escola-musica/Comunica*
+public/**/*.HEIC
+public/**/*.heic
+public/**/*.MOV
+public/**/*.mov
