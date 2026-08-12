@@ -215,6 +215,34 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                   </div>
                 )}
 
+                {/* QUEM FAZ / EQUIPE */}
+                {project.team && project.team.length > 0 && (
+                  <div className="space-y-6">
+                    <h2 className="font-serif text-2xl font-medium text-fermento-white border-b border-fermento-border pb-4">
+                      Quem faz a Escola de Música
+                    </h2>
+                    <div className="grid gap-6 sm:grid-cols-2">
+                      {project.team.map((member: any, idx: number) => (
+                        <figure key={idx} className="space-y-3">
+                          <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden border border-fermento-border bg-fermento-charcoal">
+                            <Image
+                              src={member.image}
+                              alt={`${member.name} — ${member.role}`}
+                              fill
+                              className="object-cover"
+                              sizes="(max-width: 640px) 100vw, 50vw"
+                            />
+                          </div>
+                          <figcaption>
+                            <p className="font-serif text-lg text-fermento-white">{member.name}</p>
+                            <p className="text-sm text-fermento-yellow">{member.role}</p>
+                          </figcaption>
+                        </figure>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 {/* INICIATIVAS / PROJETOS FILHOS */}
                 {institutionProjects.length > 0 && (
                   <div className="space-y-6 pt-8 border-t border-fermento-border mt-16">
