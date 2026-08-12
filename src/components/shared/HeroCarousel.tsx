@@ -11,13 +11,27 @@ const projects = [
     id: 'disritmia',
     slug: 'disritmia-fotografia-e-poesia',
     title: 'Disritmia, Fotografia e Poesia',
+    client: 'Fermento Cultural',
+    clientHref: '/sobre',
     color: 'bg-zinc-800',
     video: '/disritmia_video.mp4'
+  },
+  {
+    id: 'escola-de-musica',
+    slug: 'escola-de-musica-casa-amarela-providencia',
+    title: 'Escola de Música da Providência',
+    client: 'Casa Amarela Providência',
+    clientHref: '/projetos/casa-amarela-providencia',
+    color: 'bg-amber-950',
+    video: '/escola-musica/hero.mp4',
+    poster: '/escola-musica/cover.jpg'
   },
   {
     id: 'efemera',
     slug: 'a-efemera-beleza-das-flores',
     title: 'A Efêmera Beleza das Flores',
+    client: 'Fermento Cultural',
+    clientHref: '/sobre',
     color: 'bg-emerald-900',
     video: '/efemeravideo.mp4'
   },
@@ -25,6 +39,8 @@ const projects = [
     id: 'queercode',
     slug: 'queercode',
     title: 'Queer Code Festival',
+    client: 'Fermento Cultural',
+    clientHref: '/sobre',
     color: 'bg-purple-900',
     video: '/queer.mp4'
   },
@@ -32,6 +48,8 @@ const projects = [
     id: 'arraia',
     slug: 'arraia-doce-mel-show',
     title: 'Arraiá Doce Mel Show',
+    client: 'Fermento Cultural',
+    clientHref: '/sobre',
     color: 'bg-amber-900',
     video: '/arraiasite.mp4'
   }
@@ -66,16 +84,17 @@ export function HeroCarousel() {
       <div className="flex touch-pan-y">
         {projects.map((project) => (
           <div key={project.id} className="relative min-w-full flex-[0_0_100%]">
-            <Link href={`/projetos/${project.slug}`} className="block relative w-full h-[300px] md:h-[450px] lg:h-[550px] overflow-hidden group">
+            <div className="relative w-full h-[300px] md:h-[450px] lg:h-[550px] overflow-hidden group">
               {/* Background Color or Video */}
               <div className={`absolute inset-0 ${project.color} overflow-hidden transition-transform duration-700 group-hover:scale-105`}>
-                
+
                 {project.video && (
                   <video
                     autoPlay
                     muted
                     loop
                     playsInline
+                    poster={project.poster}
                     className="absolute inset-0 w-full h-full object-cover opacity-80"
                   >
                     <source src={project.video} type="video/mp4" />
@@ -83,30 +102,43 @@ export function HeroCarousel() {
                 )}
 
                 <div className="absolute inset-0 bg-black/40 z-10" />
-                
+
                 <div className="absolute inset-0 z-20 flex flex-col items-center justify-center">
-                  <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight text-center px-4 drop-shadow-xl max-w-5xl">
-                    {project.title}
-                  </h2>
-                  <div className="mt-8 text-fermento-yellow border border-fermento-yellow px-8 py-3 rounded-full text-sm font-medium group-hover:bg-fermento-yellow group-hover:text-fermento-black transition-colors shadow-lg backdrop-blur-sm group-hover:backdrop-blur-none">
+                  <Link href={`/projetos/${project.slug}`} className="flex flex-col items-center">
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight text-center px-4 drop-shadow-xl max-w-5xl">
+                      {project.title}
+                    </h2>
+                  </Link>
+                  {project.client && (
+                    <Link
+                      href={project.clientHref || '/clientes-e-parceiros'}
+                      className="mt-3 text-xs md:text-sm uppercase tracking-widest text-white/80 hover:text-fermento-yellow transition-colors drop-shadow"
+                    >
+                      {project.client}
+                    </Link>
+                  )}
+                  <Link
+                    href={`/projetos/${project.slug}`}
+                    className="mt-6 text-fermento-yellow border border-fermento-yellow px-8 py-3 rounded-full text-sm font-medium hover:bg-fermento-yellow hover:text-fermento-black transition-colors shadow-lg backdrop-blur-sm hover:backdrop-blur-none"
+                  >
                     Conhecer o projeto
-                  </div>
+                  </Link>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
         ))}
       </div>
 
       {/* Navigation Arrows */}
-      <button 
+      <button
         onClick={scrollPrev}
         className="absolute left-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 flex items-center justify-center bg-black/30 hover:bg-black/60 text-white rounded-full transition-colors backdrop-blur-sm border border-white/10"
         aria-label="Anterior"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
-      <button 
+      <button
         onClick={scrollNext}
         className="absolute right-4 top-1/2 -translate-y-1/2 z-30 w-12 h-12 flex items-center justify-center bg-black/30 hover:bg-black/60 text-white rounded-full transition-colors backdrop-blur-sm border border-white/10"
         aria-label="Próximo"
