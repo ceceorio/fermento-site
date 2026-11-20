@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export const metadata = {
   title: "Projetos em Captação — Fermento Cultural",
-  description: "Patrocine cultura com incentivo fiscal: projetos da Fermento Cultural e da Can Art Change The World? Foundation aprovados e prontos para captação."
+  description: "Patrocine cultura com incentivo fiscal: projetos da Fermento Cultural aprovados na Lei Rouanet e, em parceria com a Can Art Change The World? Foundation, na Lei do ISS do Rio de Janeiro."
 }
 
 export default function ProjetosEmCaptacaoPage() {
@@ -82,10 +82,23 @@ export default function ProjetosEmCaptacaoPage() {
                       <p className="text-xs text-fermento-gray uppercase tracking-widest mb-1">Mecanismo</p>
                       <p className="text-sm text-fermento-white leading-snug">{project.mecanismo}</p>
                     </div>
-                    <div>
-                      <p className="text-xs text-fermento-gray uppercase tracking-widest mb-1">Parceria</p>
-                      <p className="text-sm text-fermento-white leading-snug">{project.parceria}</p>
-                    </div>
+                    {project.parceria && (
+                      <div>
+                        <p className="text-xs text-fermento-gray uppercase tracking-widest mb-1">Parceria</p>
+                        <p className="text-sm text-fermento-white leading-snug">{project.parceria}</p>
+                      </div>
+                    )}
+                    {project.proponente && (
+                      <div>
+                        <p className="text-xs text-fermento-gray uppercase tracking-widest mb-1">Proponente</p>
+                        <p className="text-sm text-fermento-white leading-snug">{project.proponente}</p>
+                      </div>
+                    )}
+                    {project.projetoSlug && (
+                      <Button asChild variant="outline" className="w-full">
+                        <Link href={`/projetos/${project.projetoSlug}`}>Ver projeto completo</Link>
+                      </Button>
+                    )}
                     <Button asChild className="w-full">
                       <a
                         href={`https://wa.me/${captacaoIntro.whatsapp}?text=${encodeURIComponent(`Olá! Tenho interesse em patrocinar o projeto ${project.title} (${project.codigo}).`)}`}
