@@ -13,6 +13,7 @@ export const projects = [
   {
     id: "tambores-pequena-africa",
     slug: "tambores-da-pequena-africa",
+    coverImage: "/tambores/capa.jpg",
     title: "Tambores da Pequena África: Escola de Música nas Escolas Públicas",
     subtitle: "Formação musical afro-brasileira para 300 estudantes de seis escolas públicas da Pequena África.",
     summary: "Escola de música no contraturno de seis escolas públicas da Pequena África, com formação centrada nos instrumentos, ritmos e repertórios de matriz africana e afro-brasileira, e com as mães, avós e mulheres do território como guardiãs desse repertório. Aprovado na Lei Rouanet.",
@@ -45,6 +46,7 @@ export const projects = [
   {
     id: "essas-mulheres",
     slug: "essas-mulheres-teatro-musical",
+    coverImage: "/essas-mulheres/capa.jpg",
     title: "Essas Mulheres - Teatro Musical",
     subtitle: "Teatro musical sobre a letrista Ana Terra, a mulher por trás das canções que o Brasil sabe de cor.",
     summary: "Espetáculo de teatro musical inédito sobre a trajetória e a obra da letrista Ana Terra, com cantoras-atrizes e banda ao vivo formada só por mulheres. Aprovado na Lei Rouanet.",
@@ -315,16 +317,43 @@ export const projects = [
     id: "batalha-das-divas",
     slug: "batalha-das-divas",
     title: "Batalha das Divas",
-    coverImage: "/batalha-das-divas-cover.png",
-    summary: "Batalha de dança com temática LGBTQIAPN+ realizada em diversos equipamentos culturais do Rio de Janeiro.",
+    coverImage: "/batalha-das-divas-3/capa.jpg",
+    summary: "Batalha de dança com temática LGBTQIAPN+ realizada em diversos equipamentos culturais do Rio de Janeiro. Em sua terceira edição, ocupou o Imperator, no Méier, com a Turma OK como casa convidada.",
+    longDescription: `A Batalha das Divas é uma batalha de dança e performance com temática LGBTQIAPN+, criada pela Fermento Cultural para celebrar a arte drag, a dublagem, a diversidade e o brilho de artistas da cena carioca em equipamentos culturais da cidade.\n\nA primeira edição aconteceu em outubro de 2024, na Arena Carioca Dicró, na Penha. A segunda integrou a programação do Queer Code Festival, em setembro de 2025, na Ilha da Gigóia.\n\nA terceira edição aconteceu nos dias 12 e 13 de novembro de 2026, no Imperator – Centro Cultural João Nogueira, no Méier, e convidou a Turma OK, que reúne 65 anos de história na arte transformista e na cultura LGBTQIAPN+ do Rio de Janeiro. Os artistas da Turma OK brilharam no palco com apresentações, looks e muito talento. O primeiro lugar ficou com Akyza Queen, e o segundo, com Pérola Fênix. A Batalha das Divas 3 foi realizada por meio da Lei Municipal de Incentivo à Cultura do Rio de Janeiro – Lei do ISS.`,
     areaId: "cultura-territorio",
     status: "Realizado",
-    year: "2024 / 2025",
-    territory: "Arena Carioca Dicró (Penha) / Ilha da Gigóia",
+    year: "2024 / 2025 / 2026",
+    territory: "Arena Carioca Dicró (Penha) / Ilha da Gigóia / Imperator (Méier)",
     fermentoRole: "Projetos Fermento",
+    technicalDetails: [
+      { label: "Área", value: "Dança, performance e arte drag" },
+      { label: "Edições", value: "3" },
+      { label: "Mecanismo (3ª edição)", value: "Lei Municipal de Incentivo à Cultura do Rio de Janeiro – Lei do ISS" },
+      { label: "Casa convidada (3ª edição)", value: "Turma OK" },
+      { label: "Local (3ª edição)", value: "Imperator – Centro Cultural João Nogueira, Méier" },
+      { label: "Patrocínio (3ª edição)", value: "Prefeitura da Cidade do Rio de Janeiro / Secretaria Municipal de Cultura, Grupo Ezalpha e M3" },
+      { label: "Vencedora (3ª edição)", value: "Akyza Queen" },
+      { label: "2º lugar (3ª edição)", value: "Pérola Fênix" }
+    ],
+    credits: [
+      { role: "Fotos (3ª edição)", name: "Luciana Meireles" }
+    ],
+    gallery: [
+      "/batalha-das-divas-3/finalistas.jpg",
+      "/batalha-das-divas-3/diva-vermelho.jpg",
+      "/batalha-das-divas-3/diva-vestido-preto.jpg",
+      "/batalha-das-divas-3/diva-microfone.jpg",
+      "/batalha-das-divas-3/diva-franjas.jpg",
+      "/batalha-das-divas-3/jurados-e-apresentadores.jpg"
+    ],
     timeline: [
       { date: "Outubro de 2024", description: "Batalha das Divas 1 na Arena Carioca Dicró, Penha/RJ." },
-      { date: "Setembro de 2025", description: "Batalha das Divas 2 / Bloqueer durante o Queer Code Festival na Ilha da Gigóia." }
+      { date: "Setembro de 2025", description: "Batalha das Divas 2 / Bloqueer durante o Queer Code Festival na Ilha da Gigóia." },
+      { date: "12 e 13 de novembro de 2026", description: "Batalha das Divas 3 no Imperator – Centro Cultural João Nogueira, no Méier, com a Turma OK como casa convidada." }
+    ],
+    press: [
+      { portal: "Instagram", title: "Chamada da Batalha das Divas 3, com a Turma OK", url: "https://www.instagram.com/p/DfaLGDqxGOg/" },
+      { portal: "Instagram", title: "Registros da Batalha das Divas 3 no Imperator", url: "https://www.instagram.com/p/DfvqV6clhWL/" }
     ]
   },
   {
