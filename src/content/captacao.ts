@@ -8,19 +8,61 @@ export interface CaptacaoProject {
   mecanismo: string;
   valorTotal: string;
   valorMinimo: string;
-  parceria: string;
+  parceria?: string;
+  proponente?: string;
+  projetoSlug?: string;
   status: string;
 }
 
 export const captacaoIntro = {
   title: "Projetos em Captação",
   subtitle: "Patrocine cultura com incentivo fiscal e impacto real.",
-  text: "A Fermento Cultural, em parceria com a Can Art Change The World? Foundation — fundação do artista JR, criador do Inside Out Project —, apresenta um portfólio de projetos aprovados e prontos para captação. Ao patrocinar via leis de incentivo, sua empresa destina parte dos impostos devidos para iniciativas de arte, educação e transformação social, com contrapartidas de visibilidade e relatórios de impacto.",
+  text: "A Fermento Cultural apresenta um portfólio de projetos aprovados e prontos para captação: projetos próprios na Lei Rouanet e, em parceria com a Can Art Change The World? Foundation — fundação do artista JR, criador do Inside Out Project —, projetos na Lei do ISS do Rio de Janeiro. Ao patrocinar via leis de incentivo, sua empresa destina parte dos impostos devidos para iniciativas de arte, educação e transformação social, com contrapartidas de visibilidade e relatórios de impacto.",
   contrapartidas: "Todos os projetos oferecem reconhecimento institucional da marca patrocinadora em materiais de comunicação no Brasil, além de depoimentos e conteúdos de impacto produzidos com autorização dos participantes. Em projetos socioeducativos, as ações de visibilidade seguem protocolos de proteção de imagem dos participantes.",
   whatsapp: "5521968848686"
 };
 
 export const captacaoProjects: CaptacaoProject[] = [
+  {
+    id: "tambores-pequena-africa",
+    codigo: "PRONAC 269067",
+    title: "Tambores da Pequena África: Escola de Música nas Escolas Públicas",
+    summary: "Escola de música no contraturno de seis escolas públicas da Pequena África, com formação centrada nos instrumentos, ritmos e repertórios de matriz africana e afro-brasileira, e com as mães, avós e mulheres do território como guardiãs desse repertório.",
+    acoes: [
+      "Curso de formação musical de 9 meses para 300 estudantes de 9 a 17 anos, em 12 turmas",
+      "Roda das Tias: 12 rodas de conversa com 360 mães, avós e mulheres do território",
+      "14 apresentações gratuitas, entre elas 6 saraus e a Grande Roda de Música Decolonial da Pequena África",
+      "EP autoral com no mínimo 6 faixas compostas pelos estudantes, distribuído gratuitamente",
+      "Documentário de 15 minutos com Libras, legendas descritivas e audiodescrição",
+      "Instrumentos e laboratório de produção musical ficam nas escolas como legado"
+    ],
+    mecanismo: "Lei Rouanet — Artigo 18 (dedução de 100% do valor patrocinado no Imposto de Renda, dentro do limite legal)",
+    valorTotal: "R$ 1.496.731,50",
+    valorMinimo: "R$ 149.673,15 (10%)",
+    proponente: "Fermento Cultural",
+    projetoSlug: "tambores-da-pequena-africa",
+    status: "Aprovado para captação"
+  },
+  {
+    id: "essas-mulheres",
+    codigo: "PRONAC 2612405",
+    title: "Essas Mulheres - Teatro Musical",
+    summary: "Espetáculo de teatro musical inédito sobre a trajetória e a obra da letrista Ana Terra — autora de canções como Essa Mulher, Amor, Meu Grande Amor e Meu Menino —, com cantoras-atrizes e banda ao vivo formada só por mulheres.",
+    acoes: [
+      "Montagem inédita, com dramaturgia em sete movimentos criada a partir de entrevistas com a autora",
+      "5 cantoras-atrizes e banda ao vivo de 5 musicistas, todas mulheres, e uma intérprete convidada a cada noite",
+      "Temporada de 8 semanas no Rio de Janeiro: 32 apresentações e cerca de 12.800 lugares",
+      "Libras em cena, audiodescrição e programa acessível em 100% das sessões",
+      "10% dos ingressos gratuitos para escolas públicas e projetos sociais e 20% a preços populares",
+      "10 encontros formativos gratuitos para 500 estudantes e professores da rede pública"
+    ],
+    mecanismo: "Lei Rouanet — Artigo 18 (dedução de 100% do valor patrocinado no Imposto de Renda, dentro do limite legal)",
+    valorTotal: "R$ 3.107.060,50",
+    valorMinimo: "R$ 310.706,05 (10%)",
+    proponente: "Fermento Cultural",
+    projetoSlug: "essas-mulheres-teatro-musical",
+    status: "Aprovado para captação"
+  },
   {
     id: "arte-cultura-escolas",
     codigo: "WEC828/03/2026",

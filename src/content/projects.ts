@@ -11,6 +11,79 @@ export const projects = [
     fermentoRole: "Projetos Fermento"
   },
   {
+    id: "tambores-pequena-africa",
+    slug: "tambores-da-pequena-africa",
+    coverImage: "/tambores/capa.jpg",
+    title: "Tambores da Pequena África: Escola de Música nas Escolas Públicas",
+    subtitle: "Formação musical afro-brasileira para 300 estudantes de seis escolas públicas da Pequena África.",
+    summary: "Escola de música no contraturno de seis escolas públicas da Pequena África, com formação centrada nos instrumentos, ritmos e repertórios de matriz africana e afro-brasileira, e com as mães, avós e mulheres do território como guardiãs desse repertório. Aprovado na Lei Rouanet.",
+    longDescription: `Tambores da Pequena África é uma escola de música no contraturno de seis escolas públicas do território da Pequena África, no Rio de Janeiro — Saúde, Gamboa, Santo Cristo, Vila Portuária e Praça Onze. Ao longo de nove meses letivos, 300 estudantes de 9 a 17 anos, organizados em 12 turmas, participam de aulas de percepção e letramento musical, letramento racial e história ancestral, prática em instrumentos de matriz africana e afro-brasileira e produção musical, em cumprimento à Lei 10.639/2003.\n\nFoi na Pequena África, ao redor do Cais do Valongo, que a dor da diáspora virou música: nas casas das tias baianas circulavam Donga, Pixinguinha e João da Baiana, e na casa de Tia Ciata nasceu, em 1916, o primeiro samba gravado do Brasil. Mas não existe uma única escola dentro dos morros da Providência, da Conceição, do Livramento e do Pinto, e as crianças descem todos os dias para estudar no sopé. É ali, onde elas estudam, que o projeto se instala.\n\nO eixo Roda das Tias reúne 360 mães, avós e mulheres do território em 12 rodas de conversa. O repertório que elas guardam em casa — acalantos, cantos de trabalho, pontos e sambas de roda — é gravado, transcrito pelos próprios estudantes e transformado em material didático e em faixas do disco.\n\nO projeto realiza 14 apresentações públicas e gratuitas, entre apresentações de percurso, saraus nas escolas e a Grande Roda de Música Decolonial da Pequena África; grava um EP autoral com no mínimo seis faixas compostas pelos estudantes, distribuído gratuitamente nas plataformas digitais; e produz um documentário de 15 minutos com janela de Libras, legendas descritivas e audiodescrição. Ao final, os instrumentos e o laboratório de produção musical permanecem nas seis escolas.`,
+    areaId: "educacao-juventudes",
+    status: "Aprovado na Lei Rouanet · Em captação",
+    year: "2027",
+    territory: "Pequena África (Saúde, Gamboa, Santo Cristo, Vila Portuária e Praça Onze), Rio de Janeiro",
+    fermentoRole: "Projetos Fermento",
+    technicalDetails: [
+      { label: "PRONAC", value: "269067" },
+      { label: "Mecanismo", value: "Lei Rouanet (Lei Federal de Incentivo à Cultura) — Artigo 18" },
+      { label: "Área", value: "Música / Formação" },
+      { label: "Valor autorizado para captação", value: "R$ 1.496.731,50" },
+      { label: "Execução", value: "Janeiro a dezembro de 2027" },
+      { label: "Estudantes", value: "300, de 9 a 17 anos, em 12 turmas" },
+      { label: "Escolas", value: "6 escolas públicas" },
+      { label: "Roda das Tias", value: "12 rodas com 360 mães, avós e mulheres do território" },
+      { label: "Apresentações", value: "14, públicas e gratuitas" },
+      { label: "Produtos", value: "EP autoral e documentário de 15 minutos" },
+      { label: "Acessibilidade", value: "Libras, audiodescrição, legendas descritivas e material acessível" }
+    ],
+    timeline: [
+      { date: "15/10/2026", description: "Aprovação na Lei Rouanet (Portaria nº 0698/26), com autorização para captação total dos recursos." },
+      { date: "Meses 1 e 2", description: "Pré-produção: pactuação com a SME-Rio, a SEEDUC-RJ e as escolas, contratação da equipe, currículo, material didático e aquisição dos instrumentos." },
+      { date: "Meses 3 a 11", description: "Aulas nas 12 turmas, rodas da Roda das Tias, saraus, visitas formativas, apresentações de percurso, gravação do EP e captação do documentário." },
+      { date: "Mês 12", description: "Grande Roda de Música Decolonial da Pequena África, lançamento do EP, exibição do documentário e entrega dos instrumentos às escolas." }
+    ]
+  },
+  {
+    id: "essas-mulheres",
+    slug: "essas-mulheres-teatro-musical",
+    coverImage: "/essas-mulheres/capa.jpg",
+    title: "Essas Mulheres - Teatro Musical",
+    subtitle: "Teatro musical sobre a letrista Ana Terra, a mulher por trás das canções que o Brasil sabe de cor.",
+    summary: "Espetáculo de teatro musical inédito sobre a trajetória e a obra da letrista Ana Terra, com cantoras-atrizes e banda ao vivo formada só por mulheres. Aprovado na Lei Rouanet.",
+    longDescription: `Há canções que o Brasil inteiro sabe de cor sem saber de quem são as palavras. Essa Mulher, que deu título a um disco de Elis Regina. Amor, Meu Grande Amor, na voz de Angela Ro Ro. Pé sem Cabeça, Meu Menino, Lua do Meio-Dia. Por trás delas está Ana Terra, letrista, escritora e produtora que há cinco décadas escreve o que outras vozes cantam, em parceria com Danilo Caymmi, Joyce, Milton Nascimento, Tunai, Sueli Costa e tantos outros.\n\nEssas Mulheres leva essa história ao palco em uma dramaturgia inédita, em sete movimentos, construída a partir de pesquisa e entrevistas com a própria autora. A personagem central nunca aparece em cena: está nas cartas, nas letras, nas fotografias e nos manuscritos do seu acervo. Cinco cantoras-atrizes de gerações diferentes contam sua vida e cantam suas canções, acompanhadas por uma banda de cinco musicistas, todas mulheres. A cada noite, uma grande intérprete da música brasileira se junta ao elenco.\n\nA primeira temporada prevê 8 semanas no Rio de Janeiro, com 32 apresentações e cerca de 12.800 lugares. Todas as sessões terão Libras em cena, audiodescrição e programa acessível. 10% dos ingressos serão gratuitos para escolas públicas e projetos sociais, e 20% vendidos a preços populares. Como contrapartida social, o projeto realiza 10 encontros formativos gratuitos de dramaturgia, canção e escrita para 500 estudantes do ensino médio e professores da rede pública.`,
+    areaId: "cultura-territorio",
+    status: "Aprovado na Lei Rouanet · Em captação",
+    year: "2027/2028",
+    territory: "Rio de Janeiro, RJ",
+    fermentoRole: "Projetos Fermento",
+    technicalDetails: [
+      { label: "PRONAC", value: "2612405" },
+      { label: "Mecanismo", value: "Lei Rouanet (Lei Federal de Incentivo à Cultura) — Artigo 18" },
+      { label: "Área", value: "Artes Cênicas / Teatro musical" },
+      { label: "Valor autorizado para captação", value: "R$ 3.107.060,50" },
+      { label: "Execução", value: "Maio de 2027 a abril de 2028" },
+      { label: "Temporada", value: "8 semanas, 32 apresentações" },
+      { label: "Lugares ofertados", value: "Cerca de 12.800" },
+      { label: "Duração", value: "80 a 90 minutos" },
+      { label: "Classificação indicativa", value: "Livre" },
+      { label: "Acessibilidade", value: "Libras em cena, audiodescrição e programa acessível em 100% das sessões" },
+      { label: "Contrapartida social", value: "10 encontros formativos para 500 estudantes e professores da rede pública" }
+    ],
+    credits: [
+      { role: "Autora homenageada", name: "Ana Terra" },
+      { role: "Argumento", name: "Gabriel Caymmi e Cícero Nogueira de Brito" },
+      { role: "Produção e direção de arte", name: "Gabriel Caymmi" },
+      { role: "Coordenação geral", name: "Cícero Nogueira de Brito" },
+      { role: "Proponente", name: "Fermento Cultural Produções Artísticas Ltda." }
+    ],
+    timeline: [
+      { date: "18/11/2026", description: "Aprovação na Lei Rouanet (Portaria nº 0789/26), com autorização para captação total dos recursos." },
+      { date: "Meses 1 a 4", description: "Pré-produção: pesquisa no acervo e entrevistas com Ana Terra, dramaturgia, repertório e arranjos, audições e contratação do elenco e da banda." },
+      { date: "Meses 5 e 6", description: "Ensaios, construção de cenário e figurino, projeções com o acervo da autora e ensaios técnicos." },
+      { date: "Meses 7 e 8", description: "Temporada de 8 semanas no Rio de Janeiro, com 32 apresentações e 10 encontros formativos gratuitos." }
+    ]
+  },
+  {
     id: "casa-amarela",
     slug: "casa-amarela-providencia",
     title: "Casa Amarela Providência",
@@ -244,16 +317,43 @@ export const projects = [
     id: "batalha-das-divas",
     slug: "batalha-das-divas",
     title: "Batalha das Divas",
-    coverImage: "/batalha-das-divas-cover.png",
-    summary: "Batalha de dança com temática LGBTQIAPN+ realizada em diversos equipamentos culturais do Rio de Janeiro.",
+    coverImage: "/batalha-das-divas-3/capa.jpg",
+    summary: "Batalha de dança com temática LGBTQIAPN+ realizada em diversos equipamentos culturais do Rio de Janeiro. Em sua terceira edição, ocupou o Imperator, no Méier, com a Turma OK como casa convidada.",
+    longDescription: `A Batalha das Divas é uma batalha de dança e performance com temática LGBTQIAPN+, criada pela Fermento Cultural para celebrar a arte drag, a dublagem, a diversidade e o brilho de artistas da cena carioca em equipamentos culturais da cidade.\n\nA primeira edição aconteceu em outubro de 2024, na Arena Carioca Dicró, na Penha. A segunda integrou a programação do Queer Code Festival, em setembro de 2025, na Ilha da Gigóia.\n\nA terceira edição aconteceu nos dias 12 e 13 de novembro de 2026, no Imperator – Centro Cultural João Nogueira, no Méier, e convidou a Turma OK, que reúne 65 anos de história na arte transformista e na cultura LGBTQIAPN+ do Rio de Janeiro. Os artistas da Turma OK brilharam no palco com apresentações, looks e muito talento. O primeiro lugar ficou com Akyza Queen, e o segundo, com Pérola Fênix. A Batalha das Divas 3 foi realizada por meio da Lei Municipal de Incentivo à Cultura do Rio de Janeiro – Lei do ISS.`,
     areaId: "cultura-territorio",
     status: "Realizado",
-    year: "2024 / 2025",
-    territory: "Arena Carioca Dicró (Penha) / Ilha da Gigóia",
+    year: "2024 / 2025 / 2026",
+    territory: "Arena Carioca Dicró (Penha) / Ilha da Gigóia / Imperator (Méier)",
     fermentoRole: "Projetos Fermento",
+    technicalDetails: [
+      { label: "Área", value: "Dança, performance e arte drag" },
+      { label: "Edições", value: "3" },
+      { label: "Mecanismo (3ª edição)", value: "Lei Municipal de Incentivo à Cultura do Rio de Janeiro – Lei do ISS" },
+      { label: "Casa convidada (3ª edição)", value: "Turma OK" },
+      { label: "Local (3ª edição)", value: "Imperator – Centro Cultural João Nogueira, Méier" },
+      { label: "Patrocínio (3ª edição)", value: "Prefeitura da Cidade do Rio de Janeiro / Secretaria Municipal de Cultura, Grupo Ezalpha e M3" },
+      { label: "Vencedora (3ª edição)", value: "Akyza Queen" },
+      { label: "2º lugar (3ª edição)", value: "Pérola Fênix" }
+    ],
+    credits: [
+      { role: "Fotos (3ª edição)", name: "Luciana Meireles" }
+    ],
+    gallery: [
+      "/batalha-das-divas-3/finalistas.jpg",
+      "/batalha-das-divas-3/diva-vermelho.jpg",
+      "/batalha-das-divas-3/diva-vestido-preto.jpg",
+      "/batalha-das-divas-3/diva-microfone.jpg",
+      "/batalha-das-divas-3/diva-franjas.jpg",
+      "/batalha-das-divas-3/jurados-e-apresentadores.jpg"
+    ],
     timeline: [
       { date: "Outubro de 2024", description: "Batalha das Divas 1 na Arena Carioca Dicró, Penha/RJ." },
-      { date: "Setembro de 2025", description: "Batalha das Divas 2 / Bloqueer durante o Queer Code Festival na Ilha da Gigóia." }
+      { date: "Setembro de 2025", description: "Batalha das Divas 2 / Bloqueer durante o Queer Code Festival na Ilha da Gigóia." },
+      { date: "12 e 13 de novembro de 2026", description: "Batalha das Divas 3 no Imperator – Centro Cultural João Nogueira, no Méier, com a Turma OK como casa convidada." }
+    ],
+    press: [
+      { portal: "Instagram", title: "Chamada da Batalha das Divas 3, com a Turma OK", url: "https://www.instagram.com/p/DfaLGDqxGOg/" },
+      { portal: "Instagram", title: "Registros da Batalha das Divas 3 no Imperator", url: "https://www.instagram.com/p/DfvqV6clhWL/" }
     ]
   },
   {
